@@ -11,7 +11,7 @@ $Script:AppVer     = "1.0.0"
 # Google Sheet CSV endpoint (sheet name: keyadmin)
 $Script:SheetId    = "1HQLBTHR5u5xc3wzB_Dr-aNtOWy4fiQW8i7YS5rCnx4I"
 $Script:SheetName  = "keyadmin"
-$Script:SheetCsvUrl = "https://docs.google.com/spreadsheets/d/$($Script:SheetId)/gviz/tq?tqx=out:csv&sheet=$($Script:SheetName)"
+$Script:SheetCsvUrl = "https://docs.google.com/spreadsheets/d/1HQLBTHR5u5xc3wzB_Dr-aNtOWy4fiQW8i7YS5rCnx4I/edit?usp=sharing"
 
 # Local binding (skip nhập key ở lần sau trên cùng máy)
 $Script:DataDir    = Join-Path $env:ProgramData "NMHTools"
